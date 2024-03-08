@@ -1,0 +1,290 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+* {
+  font-family: "Inter", sans-serif;
+}
+/* Etiquetas HTML */
+body {
+  background-color: #F3F5FC;
+}
+.lienzoApp {
+  display: inline-flex;
+}
+/* margenes */
+/* maegrenes superiores */
+.mtop-40-73-24 {
+  margin-top: 2.5rem;
+}
+.mtop-40-64-64 {
+    margin-top: 2.5rem;
+}
+.mtop-80-117-81 {
+  margin-top: 5rem;
+}
+.mtop-395-308-64 {
+  margin-top: 24.69rem;
+}
+.mtop-32 {
+  margin-top: 2rem;
+}
+.mtop-16 {
+  margin-top: 1rem;
+}
+.mtop-0-16 {
+    margin-top: 0rem;
+}
+/* margen izquierdo */
+.mleft-40-40-16 {
+  margin-left: 2.5rem;
+}
+.mleft-240-40-16 {
+  margin-left: 15rem;
+}
+.mleft-16-0 {
+  margin-left: 1rem;
+}
+.mleft-8 {
+  margin-left: .5rem;
+}
+/* margenes sobre X */
+.mx-40-16 {
+  margin-left: 2.5rem;
+    margin-right: 2.5rem;
+}
+.mx-32 {
+  margin: 0px 2rem;
+}
+/* margenes inferiores */
+.mbottom-40-24 {
+  margin-bottom: 2.5rem;
+}
+/* tamaño personalizado de imagenes */
+.imgLogo {
+  width: 120px;
+  height: 48px;
+}
+textarea {
+  height: 288px;
+  width: 680px;
+  font-weight: 400;
+  line-height: 3rem;
+  font-size: 2rem;
+  background-color: rgba(0,0,0,0.00);
+  border: none;
+  color: #0A3871;
+}
+textarea::placeholder {
+  color: #0A3871;
+}
+
+.d-inline-flex {
+    display: inline-flex;
+}
+
+/* colores de texto */
+.color-txt-blanco {
+  color: #ffffff;
+}
+.color-txt-darkBlue-300 {
+  color: #0A3871;
+}
+.color-txt-gray-300 {
+  color: #868E96;
+}
+.color-txt-gray-500 {
+  color: #343A40;
+}
+.color-txt-gray-400 {
+  color: #495057;
+}
+/* color de fondos */
+.color-fondo-darkBlue-300 {
+  background-color: #0A3871;
+}
+.color-fondo-lightBlue-300 {
+  background-color: #E9ECF8;
+}
+.color-fondo-blanco {
+  background-color: #ffffff;
+}
+/* tamaños de textos */
+.size-txt-12px {
+  font-size: .75rem;
+}
+.size-txt-24px {
+  font-size: 1.5rem;
+}
+/* line-height */
+.line-height-18 {
+  line-height: 18px;
+}
+.line-height-28 {
+  line-height: 1.8rem;
+}
+.line-height-24 {
+  line-height: 1.5rem;
+}
+/* font-weight */
+.font-weight-400 {
+  font-weight: 400;
+}
+.font-weight-700 {
+  font-weight: 700;
+}
+
+button {
+  border: solid;
+  border-width: 1px;
+  border-radius: 24px;
+  border-color: #0A3871;
+  font-size: 16px;
+  font: 400;
+  line-height: 19.36px;
+  text-align: center;
+  width: 99px;
+  height: 67px;
+  padding: 24px;
+}
+.btn-dark-blue, .btn-light-blue {
+  width: 328px;
+}
+.btn-dark-blue:hover {
+  background-color: #072B61;
+}
+.btn-light-blue:hover {
+  background-color: #EFF1FA;
+}
+
+
+/* alturas y anchos personalizadas*/
+.altura-944-343-595 {
+  height: 59rem;
+}
+.ancho-400-688-343 {
+  width: 400px;
+}
+    .ancho-100 {
+  width: 100%;
+}  
+
+
+/* radios de los bordes */
+.radio-borde-32px {
+  border-radius: 2rem;
+}
+/* sombra */
+.sombra {
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+/* propiedad display */
+.d-inline-flex {
+  display: inline-flex;
+}
+/* alineacion de texto */
+.txt-centrado {
+  text-align: center;
+}
+/* alineacion vertical */
+.centro-vertical {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-device-width: 376px) and (max-device-width: 767.98px) {
+  .lienzoApp {
+    display: inline-block;
+  }
+  .mtop-40-73-24 {
+    margin-top: 4.5rem;
+  }
+    .mtop-40-64-64 {
+    margin-top: 4rem;
+} 
+    .mtop-80-117-81 {
+  margin-top: 7.3rem;
+}
+    .mtop-395-308-64 {
+  margin-top: 19.25rem;
+} 
+    .mleft-240-40-16 {
+  margin-left: 2.5rem;
+} 
+  .imgLogo {
+    width: 31.09px;
+    height: 46.37px;
+  }
+  textarea {
+  width: 688px;
+}  
+  .altura-944-343-595 {
+  height: 21.43rem;
+}  
+  .ancho-400-688-343 {
+  width: 688px;
+}  
+
+
+        .display-sm-md-none {
+        display: none;
+    }
+}
+@media screen and (max-width: 375.98px) {
+  .lienzoApp {
+    display: inline-block;
+  }
+  .mtop-40-73-24 {
+    margin-top: 1.5rem;
+  }
+        .mtop-40-64-64 {
+    margin-top: 4rem;
+} 
+ 
+    .mtop-80-117-81 {
+  margin-top: 5.1rem;
+} 
+    .mtop-395-308-64 {
+  margin-top: 4rem;
+} 
+    .mtop-0-16 {
+        margin-top: 1rem;
+    } 
+    .mleft-40-40-16 {
+    margin-left: 1rem;
+  } 
+    .mleft-240-40-16 {
+  margin-left: 1rem;
+}
+.mleft-16-0 {
+  margin-left: 0rem;
+}
+    .mx-40-16 {
+  margin-left: 1rem;
+    margin-right: 1rem;
+}
+  .imgLogo {
+    width: 32px;
+    height: 48px;
+  }
+textarea {
+  height: 624px;
+  width: 343px;
+}
+   .altura-944-343-595 {
+  height: 37.18rem;
+} 
+    .ancho-400-688-343 {
+  width: 343px;
+}
+
+ 
+    .display-sm-md-none {
+        display: none;
+    }
+}

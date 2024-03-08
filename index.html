@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<title>Encriptador de texto</title>
+</head>
+<body>
+<main class="lienzoApp mbottom-40-24">
+  <section>
+    <div class="mtop-40-73-24 mleft-40-40-16">
+      <h1><img src="img/logo-alura.svg" alt="logo de alura latam" class="imgLogo"></h1>
+    </div>
+    <div>
+      <textarea id="txt-usuario" placeholder="Ingrese el texto aqui" class="mtop-80-117-81 mleft-240-40-16"></textarea>
+      <div class="mtop-395-308-64 mleft-240-40-16 d-inline-flex"> 
+          <img src="img/vector.svg" alt="simbolo de exclamacion" width="16px" height="16px">
+        <p class="mleft-8 color-txt-gray-300 size-txt-12px line-height-18 font-weight-400">Solo letras minúsculas y sin acentos</p>
+      </div>
+      <div class="mleft-240-40-16 mtop-16"><!-- aqui falta el display inline -->
+        <button type="button" class="btn-dark-blue color-txt-blanco color-fondo-darkBlue-300" onClick="btnEncriptar();">Encriptar</button>
+        <button type="button" class="btn-light-blue color-txt-darkBlue-300 color-fondo-lightBlue-300 mleft-16-0 mtop-0-16" onClick="btnDesencriptar();">Desencriptar</button>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="mtop-40-64-64 mx-40-16 radio-borde-32px sombra altura-944-343-595 ancho-400-688-343 color-fondo-blanco centro-vertical txt-centrado">        
+      <div class="mx-32 ancho-100">
+        <img src="img/muneco.svg" alt="figura de un muñeco con una lupa" class="display-sm-md-none imgMuneco">
+        <p class="mensaje1 mtop-32 color-txt-gray-500 font-weight-700 size-txt-24px line-height-28 ">Ningún mensaje fue encontrado</p>
+        <p class="mensaje2 mtop-32 color-txt-gray-400 font-weight-400 line-height-24">Ingresa el texto que desees encriptar o desencriptar.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="js/script.js"></script>
+</body>
+</html>
